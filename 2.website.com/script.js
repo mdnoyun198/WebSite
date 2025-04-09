@@ -1,0 +1,1 @@
+alert("Hello the is my fast website")
