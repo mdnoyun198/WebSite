@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(131, 113, 113);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+
+}
+.red{
+    background-color: red;
+}
+.gren{
+    background-color: green;
+}
+.yolo{
+    background-color: yellow;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+}
