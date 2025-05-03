@@ -1,0 +1,27 @@
+body{
+    background-color: yellow;
+}
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+
+a{
+
+    background-color: red;
+}
+
+a:link{
+background-color: blue;
+}
+a:visited{
+color: aqua;
+}
+a:hover{
+background-color: blueviolet;
+}
+
+p:first-child{
+    color: rgb(137, 197, 58);
+}
