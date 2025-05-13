@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav-bar {
+    padding: 10px;
+    height: 50px;
+    width: 300px;
+}
+
+.nav-bar:hover {
+    background-color: red;
+}
+
+nav ul li#home {
+
+    list-style-image: url(img/home.png);
+
+}
+
+nav ul li#chat {
+    list-style-image: url(img/chat.png);
+}
+
+nav ul li#about {
+    list-style-image: url(img/about.png);
+}
+
+nav ul li#account {
+    list-style-image: url(img/account.png);
+
+}
