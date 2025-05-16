@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+
+}
+
+
+/* @media not screen and (max-width :500px) {
+    body{
+        background-color: red;
+    } 
+}*/
+
+
+/* @media only screen and (max-width :500px) {
+    body{
+        background-color: red;
+    }
+} */
+
+/* 
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    body {
+        background-color: red;
+    }
+}
+ */
+ @media screen and (min-width :200px) and (max-width :500px){ 
+    body{
+        background-color: red;
+    }
+    
+}
+
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+   
+}
+/* disktop */
+@media only screen and (orientation: landscape){
+    .box{
+        display: inline-block;
+    }
+}
+
+/* phone */
+@media only screen and (orientation: portrait){
+    .box{
+        display: inline-block;
+    }
+}
