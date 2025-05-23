@@ -1,0 +1,37 @@
+
+
+:root{
+    --color: rgb(240, 0, 0);
+}
+
+.navbar{
+    border: 2px solid black;
+    display: flex;
+    background-color: var(--color);
+
+}
+
+nav ul li{
+    padding: 10px;
+    margin: 10px;
+    list-style-image: ;
+}
+nav ul li:active{
+    border-bottom: 3px solid rgb(0, 157, 255) ;
+    transition: 0.5s;
+   
+}
+nav ul li:hover{
+    border-bottom: 3px solid rgb(0, 157, 255) ;
+    transition: 0.5s;
+   
+}
+nav ul li#home{
+    list-style-image: url(img/home.png);
+}
+nav ul li#content{
+    list-style-image: url(img/content.png);
+}
+nav ul li#about{
+    list-style-image: url(img/about.png);
+}
