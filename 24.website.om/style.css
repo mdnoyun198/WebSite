@@ -1,0 +1,87 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+.min1 {
+    /* height: 200px; */
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+
+.box1 {
+    border: 2px solid black;
+    height: 100px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.min2 {
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.box2 {
+    border: 2px solid black;
+    height: 100px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.min3 {
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    /* justify-content: center;
+    align-items: center; */
+
+    gap: 10px 5px;
+    align-content: center;
+    flex-wrap: wrap;
+
+    /* align-content: flex-start; */
+}
+
+.box3 {
+    border: 2px solid black;
+    height: 100px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#hh {
+    order: 1;
+    background-color: red;
+    align-self: center;
+    justify-self: center;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
