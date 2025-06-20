@@ -1,0 +1,17 @@
+.min{
+    border: 2px solid black;
+    height: 400px;
+    width: 500px;
+}
+img{
+    height: 400px;
+    width: 300px;
+    /* object-fit: contain; */
+object-fit: cover;
+object-position: bottom right;
+}
+body{
+    background-image: url(img/1.jpeg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}

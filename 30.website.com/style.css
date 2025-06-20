@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.min{
+    background-color: rgba(0, 255, 255, 0.35);
+    height: 600px;
+    width: 800px;
+}
+.box{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    background-color: red;
+    transform: translateX(225%) translateY(300%);
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
