@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.min {
+    margin: auto;
+    border: 2px solid black;
+    width: 80vw;
+    height: 70vh;
+    background-color: blue;
+}
+
+.boll {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    animation: animateX 3s linear infinite, animateY 1s ease-out infinite alternate;
+
+}
+
+@keyframes animateX {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes animateY {
+    from {
+        bottom: 0;
+    }
+
+    to {
+        bottom: 100%;
+    }
+}
