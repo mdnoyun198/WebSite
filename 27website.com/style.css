@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color: black;
+    --size: 12px;
+}
+
+html {
+    /* font-size: var(--size); */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+nav {
+    border: 2px solid black;
+    /* margin: 3px; */
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li {
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-button-list {}
+
+.nav-button {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(101, 165, 250);
+}
+
+
+main {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    margin: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+
+.box {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    /* width: 100%; */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgp {
+    object-fit: cover;
+}
+
+.content {
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    /* border: 2px solid var(--color); */
+    height: 300px;
+    margin-top: 100px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+@media screen and (orientation: landscape) {}
+
+@media screen and (orientation: portrait) {
+
+    main {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    footer {
+
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+
+
+}
